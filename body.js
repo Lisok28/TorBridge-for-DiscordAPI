@@ -6,7 +6,7 @@ const agent = new SocksProxyAgent('socks5h://127.0.0.1:9050');
 
 axios.get('https://discord.com/api/v10/users/@me', {
   headers: {
-    'Authorization': `Bot MTAyODg5MTkyNTE5MDgwMzU0OA.GHFGuD.CSlpCHvkDqbdiYJh36hzoHrw3i5Rz1BJe8gjro`
+    'Authorization': `Bot *тут должен быть токен бота*`
 },
 httpsAgent: agent
 })
